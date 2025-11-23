@@ -103,13 +103,25 @@
   .skills-title {
     font-size: 2rem;
   }
+
   .typewriter {
     font-size: 0.9rem;
+    color: white;
+    margin: 20px;
+    border-right: 2px solid lightpink;
+    display: inline-block;
+    overflow: hidden;
+    max-width: 100%;
+    white-space: pre-wrap;
+    word-break: break-word;
+    animation: typing 6s steps(60, end) forwards, blink 0.8s step-end infinite;
   }
+
   .skill-list {
     gap: 30px;
     animation-duration: 30s;
   }
+
   .skill-item img,
   .skill-item svg {
     width: 70px;
@@ -117,19 +129,12 @@
   }
 }
 
-@media (max-width: 400px) {
-  .skills-title {
-    font-size: 1.6rem;
-  }
-  .typewriter {
-    font-size: 0.8rem;
-  }
-  .skill-list {
-    gap: 20px;
-  }
-  .skill-item img,
-  .skill-item svg {
-    width: 60px;
-    height: 60px;
-  }
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
 }
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
