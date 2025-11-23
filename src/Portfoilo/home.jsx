@@ -22,14 +22,14 @@ export const Home = () => {
                 <main>
                     <div className="main-parent">
                         <div className="main-parent-1">
-                            <h1>Raja N</h1>
-                            <h3 style={{ marginTop: "8px" }}>
-                                Financial Analyst → Manual Tester → <span style={{ color: "lightpink" }}>FullStack Developer</span>
+                            <h1 style={{ marginTop: "60px" ,fontSize:"48px" }}>Raja Nalliyappan</h1>
+                            <h3 style={{ marginTop: "50px" }}>
+                                Manual Software Tester → <span style={{ color: "lightpink" }}>FullStack Developer</span>
                             </h3>
-                            <p>
-                                Motivated and detail-oriented professional with 2 years of experience as an XBRL Financial Analyst and 1 year in Manual Testing, currently upskilling in Full Stack Web Development. Seeking a dynamic role in software development where I can blend my analytical background with technical skills to build efficient, user-centric web applications. Eager to contribute to innovative projects while continuously growing as a full stack developer.
+                            <p style={{fontSize:"18px"}}>
+                                Full-Stack Developer with strong skills in HTML, CSS, JavaScript, React, C#, .NET Core, and SQL Server. Hands-on experience in UI development, API creation, and database integration. 3 years of Manual Testing experience ensures reliable, bug-free applications. Open to Full-Stack, Frontend, or Backend Developer roles.
                             </p>
-                            <a href="https://Raja-Nalliyappan.github.io/dev-portfolio/Resume/Raja.pdf" download="Raja_resume.pdf">
+                            <a style={{ marginTop: "50px" }} href="https://Raja-Nalliyappan.github.io/dev-portfolio/Resume/Raja.pdf" download="Raja_resume.pdf">
                                 Download Resume
                             </a>
                         </div>
