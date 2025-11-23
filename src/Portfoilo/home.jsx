@@ -1,4 +1,4 @@
-import rajaIcon from '../assets/Raja N.jpg';
+import rajaIcon from '../assets/Raja N.jpeg';
 import { Navbar } from './Navbar';
 import { Footer } from './Footer';
 import {Experience} from './Experience';
