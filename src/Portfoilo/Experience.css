@@ -22,7 +22,6 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 20px;
-  max-width: 1600px;
   margin: 0 auto;
 }
 
@@ -64,16 +63,15 @@
 }
 
 .experience-img {
-  width: 300px;
+  width: 400px;
   height: 200px;
-  object-fit: cover;
-  border: 2px solid #00d4ff;
+  border: 1px solid #00d4ff;
   border-radius: 12px;
 }
 
 .duration {
   font-weight: bold;
-  color: #00d4ff;
+  color: oklab(80.427% -0.11258 -0.09296);
   margin: 15px 0;
 }
 
@@ -82,10 +80,11 @@
   font-size: 0.95rem;
   padding-left: 20px;
   color: #dcdcdc;
+  text-align: justify;
 }
 
 .description li {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 900px) {

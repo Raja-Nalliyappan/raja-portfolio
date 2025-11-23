@@ -11,23 +11,19 @@ export const Projects = () => {
       title: "My Personal Portfolio",
       tools: "React.jsx",
       desc: [
-              "This website showcases my skills, projects, and experience in web development.",
-              "Here, you can explore interactive projects built using modern technologies like React",
-              "The portfolio is designed to be clean, responsive, and user-friendly, making it easy for anyone to navigate and learn about my work and achievements.",
-              "It's a one-stop place to understand my journey as a developer."
+              "This website showcases my skills, projects, and experience in web development. Here, you can explore interactive projects built using modern technologies like React",
+              "The portfolio is designed to be clean, responsive, and user-friendly, making it easy for anyone to navigate and learn about my work and achievements."
             ],  
       demo: "https://raja-nalliyappan.github.io/dev-portfolio",
       code: "https://github.com/Raja-Nalliyappan/dev-portfolio.git",
       img: portfolio,
     },
     {
-      title: "XBRL to iXBRL Coverstion",
+      title: "iXBRL to XBRL Coverstion",
       tools: "HTML, CSS , JS",
       desc: [
               "This project automates the process of cleaning iXBRL documents by removing all iXBRL-specific tags while preserving the underlying HTML content.",
-              "It converts complex iXBRL reports into clean, readable HTML files that are easier to work with for reporting and analysis.",
-              "The solution ensures data integrity while simplifying the HTML structure, making it suitable for further processing or web presentation.",
-               "It's a one-stop place to understand my journey as a developer."
+              "It converts complex iXBRL reports into clean, readable HTML files that are easier to work with for reporting and analysis. The solution ensures data integrity while simplifying the HTML structure, making it suitable for further processing or web presentation."
             ],
       demo: "https://raja-nalliyappan.github.io/XBRL---iXBRL-Covert",
       code: "https://github.com/Raja-Nalliyappan/XBRL---iXBRL-Covert.git",
@@ -46,7 +42,7 @@ export const Projects = () => {
     <>
     {/* <Navbar /> */}
 
-    <h2 className="projects-section-heading">My Testing Projects</h2>
+    <h2 className="projects-section-heading">My Projects</h2>
 
     <section className="projects-section">
       

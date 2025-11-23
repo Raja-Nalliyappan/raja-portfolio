@@ -8,7 +8,9 @@ export const Footer = () => {
     return(
         <footer>
             <div className="footer-parent">
+                <p>Email: n.raja3710@gmail.com</p>
                 <p>© {newDate} All Rights Reserved.</p>
+                <p>Phone: +91 9626945746</p>
             </div>
         </footer>
     )

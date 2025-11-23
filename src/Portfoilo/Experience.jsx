@@ -10,11 +10,17 @@ export const Experience = () => {
 
     useEffect (()=>{
             document.body.style.backgroundColor = "black"
-        })
+        },[])
 
-    const today = new Date();
-    const options = {month:"short",year:"numeric"}
-    const todayDate =  today.toLocaleDateString("en-US", options);
+  const startDate = new Date("2022-07-01");
+  const today = new Date();
+  const options = { month: "short", year: "numeric" };
+  const startDateFormatted = startDate.toLocaleDateString("en-US", options);
+  const todayDateFormatted = today.toLocaleDateString("en-US", options);
+  const totalMonths = (today.getFullYear() - startDate.getFullYear()) * 12 + (today.getMonth() - startDate.getMonth());
+  const years = Math.floor(totalMonths / 12);
+  const months = totalMonths % 12;
+  const yearCal = `${years} year${years !== 1 ? "s" : ""} ${months} month${months !== 1 ? "s" : ""}`;
         
   return (
     <>
@@ -65,22 +71,19 @@ export const Experience = () => {
               <h3>Manual Tester - QA</h3>
               <h4>Edgar E-File Solutions Pvt. Ltd.</h4>
             </div>
-            <h4>Chennai - 600028</h4>
-            <p>July 2022 &ndash; {todayDate} &#40;present&#41;</p>
+            <h4>Chennai</h4>
+            <p>{startDateFormatted} &ndash; {todayDateFormatted} &#40;present&#41;</p><p>{yearCal}</p>
           </div>
-          <div style={{display:"flex", gap:"50px"}}>
 
           <ul className="description">
-            <li>Performed manual testing for web-based financial applications.</li>
-            <li>Prepared test summary reports and provided UAT support.</li>
-            <li>Logged, tracked, and reported bugs using Jira & coordinated with developers for resolutions.</li>
-            <li>Designed and executed manual test cases for web applications.</li>
+            <li>Performed end-to-end manual testing of web-based financial applications, ensuring application stability, performance, with functional requirements.</li>
+            <li>Provided UAT (User Acceptance Testing) support, collaborated with business users, and ensured smooth sign-off for production releases.</li>
+            <li>Logged, tracked, and verified defects using Jira, coordinated with developers to ensure timely resolution, and improved defect lifecycle efficiency.</li>
+            <li>Designed, documented, and executed high-quality test cases, test scenarios, and workflows covering UI, functional, and browser compatibility testing.</li>
             <li>Validated XBRL reports for accuracy in data tagging and taxonomy mapping.</li>
-            <li>Performed retesting and closure validation on fixed bugs.</li>
+            <li>Performed retesting and closure validation on fixed bugs. Prepared detailed test reports and improved SDLC quality through proactive requirement analysis.</li>
           </ul>
 
-          <img src={qaImg} alt="Manual Tester QA" className="experience-img" width={50} height={50} />
-          </div>
         </div>
       </div>
     </div>
