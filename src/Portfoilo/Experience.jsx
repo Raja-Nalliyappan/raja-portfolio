@@ -25,7 +25,7 @@ export const Experience = () => {
       <div className="experience-grid">
 
         {/* XBRL Financial Associate */}
-        <div className="experience-card">
+        {/* <div className="experience-card">
           <img src={xbrlImg} alt="XBRL Financial Analyst" className="experience-img" />
           <h3>Financial Associate</h3>
           <h4>Edgar E-File Solutions Pvt. Ltd.</h4>
@@ -39,10 +39,10 @@ export const Experience = () => {
             <li>Assessing companies for filing their quarterly and annual reports as per SEC regulatory compliance, requirements, and norms.</li>
             <li>Performed compliance reviews of financial reports submitted in XBRL format</li>
           </ul>
-        </div>
+        </div> */}
 
         {/* Financial Analyst - QC */}
-        <div className="experience-card">
+        {/* <div className="experience-card">
           <img src={qcImg} alt="Financial Analyst QC" className="experience-img" />
           <h3>Financial Analyst - QC</h3>
           <h4>Edgar E-File Solutions Pvt. Ltd.</h4>
@@ -55,15 +55,17 @@ export const Experience = () => {
             <li>Worked closely with clients to prepare and validate XBRL and iXBRL reports to identify and resolved data inconsistencies within XBRL filings, ensuring compliance with SEC regulations."</li>
             <li>Performed quality checks on XBRL instance documents including block text and Level 4 footnotes.</li>
           </ul>
-        </div>
+        </div> */}
 
         {/* Manual Tester - QA */}
         <div className="experience-card">
-          <img src={qaImg} alt="Manual Tester QA" className="experience-img" />
-          <h3>Manual Tester - QA</h3>
-          <h4>Edgar E-File Solutions Pvt. Ltd.</h4>
-          <h4>Chennai</h4>
-          <p className="duration">Sep 2024 &ndash; {todayDate} &#40;present&#41;</p>
+          <div  className="duration" style={{display:"flex", gap:"50px"}}>
+            <img src={qaImg} alt="Manual Tester QA" className="experience-img" />
+            <h3>Manual Tester - QA</h3>
+            <h4>Edgar E-File Solutions Pvt. Ltd.</h4>
+            <h4>Chennai</h4>
+            <p>July 2022 &ndash; {todayDate} &#40;present&#41;</p>
+          </div>
           <ul className="description">
             <li>Performed manual testing for web-based financial applications.</li>
             <li>Prepared test summary reports and provided UAT support.</li>
