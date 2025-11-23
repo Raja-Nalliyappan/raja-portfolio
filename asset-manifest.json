@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/raja-portfolio/static/css/main.535530a8.css",
-    "main.js": "/raja-portfolio/static/js/main.c1d4d467.js",
+    "main.css": "/raja-portfolio/static/css/main.a98f8f69.css",
+    "main.js": "/raja-portfolio/static/js/main.8ba566db.js",
     "static/media/iXBRL clean.png": "/raja-portfolio/static/media/iXBRL clean.c647e7877b810aeb0867.png",
     "static/media/portfolio.png": "/raja-portfolio/static/media/portfolio.7fa65a5729f69213a6a5.png",
+    "static/media/qa.jpg": "/raja-portfolio/static/media/qa.d9dca609fe5b398fe73b.jpg",
     "static/media/Raja N.jpeg": "/raja-portfolio/static/media/Raja N.32057befbb4093c1bf6f.jpeg",
-    "static/media/qa.webp": "/raja-portfolio/static/media/qa.b939c01bc2866d950ab1.webp",
     "static/media/qc.webp": "/raja-portfolio/static/media/qc.ae7f49decbe067c4677a.webp",
     "static/media/javascript.svg": "/raja-portfolio/static/media/javascript.953dadb2de5e0766cb931cec905fb8d3.svg",
     "static/media/CSS-3.svg": "/raja-portfolio/static/media/CSS-3.0e233ed3643ae056daee456bf9842f2c.svg",
@@ -17,11 +17,11 @@
     "static/media/Csharp.svg": "/raja-portfolio/static/media/Csharp.34f27bd2557256bc3fa4953bcf4314b6.svg",
     "index.html": "/raja-portfolio/index.html",
     "static/media/linkedin.svg": "/raja-portfolio/static/media/linkedin.ada11cda991129bc91b79d2c7cee1066.svg",
-    "main.535530a8.css.map": "/raja-portfolio/static/css/main.535530a8.css.map",
-    "main.c1d4d467.js.map": "/raja-portfolio/static/js/main.c1d4d467.js.map"
+    "main.a98f8f69.css.map": "/raja-portfolio/static/css/main.a98f8f69.css.map",
+    "main.8ba566db.js.map": "/raja-portfolio/static/js/main.8ba566db.js.map"
   },
   "entrypoints": [
-    "static/css/main.535530a8.css",
-    "static/js/main.c1d4d467.js"
+    "static/css/main.a98f8f69.css",
+    "static/js/main.8ba566db.js"
   ]
 }
