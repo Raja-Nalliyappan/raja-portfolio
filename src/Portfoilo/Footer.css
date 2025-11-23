@@ -15,11 +15,6 @@ footer {
   text-align: center;
 }
 
-
-
-
-
-
 @media (max-width: 768px) {
   .footer-parent {
     padding: 12px;

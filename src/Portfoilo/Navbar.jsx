@@ -30,7 +30,7 @@ export const Navbar =()=>{
                     </nav>
                     <nav className="navbar-img">
                         <ul className="nav-bar-img-list">
-                            <li><a href="#" target='_blank' rel='oopener noreferrer'><img src={instagramIcon} alt="instagram" width="35" height="35"/></a></li>
+                            {/* <li><a href="#" target='_blank' rel='oopener noreferrer'><img src={instagramIcon} alt="instagram" width="35" height="35"/></a></li> */}
                             <li><a href="https://www.linkedin.com/in/raja-nalliyappan-22a131174/" target='_blank' rel='oopener noreferrer'><img src={linkedinIcon} alt="linkedin" width="35" height="35"/></a></li>
                             <li><a href="https://github.com/Raja-Nalliyappan" target='_blank' rel='oopener noreferrer'><img src={githubIcon} alt="" width="35" height="35"/></a></li>
                             <li><a href="https://wa.me/9626945746?text=Hi%2C%20I%E2%80%99m%20interested%20in%20your%20work." target='_blank' rel='oopener noreferrer'><img src={whatsappIcon} alt="" width="31" height="31" style={{marginBottom:"2px"}}/></a></li>

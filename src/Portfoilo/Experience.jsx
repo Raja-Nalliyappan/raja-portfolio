@@ -3,7 +3,7 @@ import { Navbar } from './Navbar';
 import { Footer } from './Footer';
 import qcImg from "../assets/qc.webp";
 import xbrlImg from "../assets/xbrl.jpg";
-import qaImg from "../assets/qa.webp";
+import qaImg from "../assets/qa.jpg";
 import { useEffect } from "react";
 
 export const Experience = () => {
