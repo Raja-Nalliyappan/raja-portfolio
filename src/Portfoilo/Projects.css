@@ -1,6 +1,6 @@
 /* Projects Section */
 .projects-section {
-  padding: 40px 5%;
+  /* padding: 40px 5%; */
   width: 90%;
   margin: 0 auto;
   font-family: "Arial", sans-serif;
@@ -14,7 +14,7 @@
 .projects-section-heading {
   text-align: center;
   font-size: 3rem;
-  margin-top: 20px;
+  margin: 30px;
   color: #00d4ff;
   text-shadow: 2px 1px 1px #00d4ff;
   opacity: 0;

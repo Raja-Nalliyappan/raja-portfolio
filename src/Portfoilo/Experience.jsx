@@ -20,7 +20,7 @@ export const Experience = () => {
     <>
     {/* <Navbar /> */}
     <div className="experience-container">
-      <h2 className="section-title">My Work Experience</h2>
+      <h6 className="section-title">My Work Experience</h6>
 
       <div className="experience-grid">
 
@@ -60,12 +60,16 @@ export const Experience = () => {
         {/* Manual Tester - QA */}
         <div className="experience-card">
           <div  className="duration" style={{display:"flex", gap:"50px"}}>
-            <img src={qaImg} alt="Manual Tester QA" className="experience-img" />
-            <h3>Manual Tester - QA</h3>
-            <h4>Edgar E-File Solutions Pvt. Ltd.</h4>
-            <h4>Chennai</h4>
+            {/* <img src={qaImg} alt="Manual Tester QA" className="experience-img" /> */}
+            <div style={{display:"flex", gap:"50px"}}>
+              <h3>Manual Tester - QA</h3>
+              <h4>Edgar E-File Solutions Pvt. Ltd.</h4>
+            </div>
+            <h4>Chennai - 600028</h4>
             <p>July 2022 &ndash; {todayDate} &#40;present&#41;</p>
           </div>
+          <div style={{display:"flex", gap:"50px"}}>
+
           <ul className="description">
             <li>Performed manual testing for web-based financial applications.</li>
             <li>Prepared test summary reports and provided UAT support.</li>
@@ -74,6 +78,9 @@ export const Experience = () => {
             <li>Validated XBRL reports for accuracy in data tagging and taxonomy mapping.</li>
             <li>Performed retesting and closure validation on fixed bugs.</li>
           </ul>
+
+          <img src={qaImg} alt="Manual Tester QA" className="experience-img" width={50} height={50} />
+          </div>
         </div>
       </div>
     </div>

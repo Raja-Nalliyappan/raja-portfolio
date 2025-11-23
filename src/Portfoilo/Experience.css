@@ -1,6 +1,6 @@
 .experience-container {
   color: #f1f1f1;
-  padding: 60px 20px;
+  /* padding: 60px 20px; */
   font-family: "Arial", sans-serif;
   width: 90%;
   align-items: center;
@@ -9,7 +9,7 @@
 
 .section-title {
   text-align: center;
-  font-size: 4rem;
+  font-size: 3rem;
   margin-bottom: 50px;
   color: #00d4ff;
   text-shadow: 2px 1px 1px #00d4ff;
@@ -42,12 +42,12 @@
 }
 
 .experience-img {
-  width: 80px;
-  height: 80px;
+  width: 200px;
+  height: 200px;
   border-radius: 10%;
   border: 2px solid #00d4ff;
   object-fit: cover;
-  margin-bottom: 20px;
+  margin-left: 120px;
 }
 
 .duration {
@@ -73,6 +73,7 @@
   animation: fadeInUp 0.8s forwards;
 }
 .section-title{
+  /* font-size: 26px; */
   opacity: 0;
   transform: translateY(50px);
   animation: fadeInUp 0.8s forwards;
