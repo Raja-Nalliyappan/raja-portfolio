@@ -136,12 +136,12 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   .experience-container{
-    margin-top: 130%;
+    margin-top: 80%;
   }
   .section-title {
-    margin-top: 90%;
+    margin-top: auto;
     font-size: 1.7rem;
   }
 
