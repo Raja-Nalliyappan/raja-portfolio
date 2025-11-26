@@ -110,9 +110,9 @@ export const Skills = () => {
     <div className="skills-page">
       <div className="skills-content">
         <h1 className="skills-title">Development Skills</h1>
-        <p className="typewriter">
+        {/* <p className="typewriter">
           Full Stack .NET Developer skilled in ASP.NET Core, Web API, React.js, and SQL Server with strong OOPs and problem-solving skills.
-        </p>
+        </p> */}
         <div className="skill-scroll-wrapper">
           <div className="skill-list">
             {seamlessSkills.map((skill, index) => (

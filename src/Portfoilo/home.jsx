@@ -22,9 +22,11 @@ export const Home = () => {
                 <main>
                     <div className="main-parent">
                         <div className="main-parent-1">
-                            <h1 style={{ marginTop: "60px" ,fontSize:"48px" }}>Raja Nalliyappan</h1>
+                            <h1 >Raja Nalliyappan</h1>
+                            {/* style={{ marginTop: "60px" ,fontSize:"48px" }} */}
                             <h3 style={{ marginTop: "50px" }}>Manual Software Tester → <span style={{ color: "lightpink", fontSize:"28px" }}>FullStack Developer</span></h3>
-                            <p style={{fontSize:"18px", marginTop:"100px"}}>
+                            <p >
+                                {/* style={{fontSize:"18px", marginTop:"100px"}} */}
                                 Full-Stack Developer with strong skills in HTML, CSS, JavaScript, React, C#, .NET Core, and SQL Server. Hands-on experience in UI development, API creation, and database integration. 3 years of Manual Testing experience ensures reliable, bug-free applications. Open to Full-Stack, Frontend, or Backend Developer roles.
                             </p>
                             <a style={{ marginTop: "50px" }} href="https://Raja-Nalliyappan.github.io/dev-portfolio/Resume/Raja.pdf" download="Raja_resume.pdf">

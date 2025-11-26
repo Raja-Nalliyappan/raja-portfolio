@@ -126,4 +126,10 @@ header {
   .main-header {
     padding: 1rem;
   }
+  .nav-list{
+    display: ruby;
+  }
+  .nav-bar-img-list{
+    gap: 80px;
+  }
 }

@@ -137,7 +137,11 @@
 }
 
 @media (max-width: 400px) {
+  .experience-container{
+    margin-top: 130%;
+  }
   .section-title {
+    margin-top: 90%;
     font-size: 1.7rem;
   }
 

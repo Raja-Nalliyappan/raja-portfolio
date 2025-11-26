@@ -10,6 +10,10 @@ main {
   justify-content: center;
   align-items: center;
 }
+h1{
+  margin-top: 60px; 
+  font-size: 48px;
+}
 
 .main-parent {
   width: 90%;
@@ -113,5 +117,12 @@ main {
   .main-parent-1 a {
     font-size: 14px;
     padding: 8px;
+  }
+
+  .main-parent-1 p{
+    display: inline-block;
+  }
+  h1{
+    margin-top: 10%;
   }
 }
