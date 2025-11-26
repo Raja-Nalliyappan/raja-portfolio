@@ -22,12 +22,14 @@ footer {
 @media (max-width: 768px) {
   .footer-parent {
     padding: 12px;
-    flex-direction: column;
     top: 135%;
   }
 
   .footer-parent p {
     font-size: 13px;
+  }
+  .footer-parent p:nth-child(2){
+    display: none;
   }
 }
 
